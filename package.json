@@ -1,0 +1,55 @@
+{
+  "name": "web-ui",
+  "version": "1.0.0",
+  "description": "Boilerplate de composants utiles pour le dévéloppement d'une application via le framework web Chakra UI",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test",
+    "build": "npx webpack --config ./webpack.config --watch",
+    "server": "webpack-dev-server --config webpack.config.js",
+    "start": "npm run server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borispipo/web-ui.git"
+  },
+  "keywords": [
+    "Chakro",
+    "UI",
+    "React",
+    "BoilerPlate"
+  ],
+  "author": "@fto-consult/Boris Fouomene",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/borispipo/chakra-ui/issues"
+  },
+  "homepage": "https://github.com/borispipo/chakra-ui#readme",
+  "dependencies": {
+    "@babel/plugin-proposal-export-namespace-from": "^7.18.9",
+    "@babel/preset-react": "^7.18.6",
+    "@chakra-ui/react": "^2.4.1",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@fto-consult/common": "^1.13.0",
+    "@svgr/webpack": "^6.5.1",
+    "babel-loader": "^9.1.0",
+    "babel-plugin-inline-dotenv": "^1.7.0",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.4",
+    "css-loader": "^6.7.2",
+    "dotenv": "^16.0.3",
+    "file-loader": "^6.2.0",
+    "framer-motion": "^7.6.12",
+    "html-webpack-plugin": "^5.5.0",
+    "react-icons": "^4.6.0",
+    "react-refresh": "^0.14.0",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0",
+    "source-map-loader": "^4.0.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
