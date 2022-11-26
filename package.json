@@ -22,13 +22,13 @@
   "author": "@fto-consult/Boris Fouomene",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/borispipo/chakra-ui/issues"
+    "url": "https://github.com/borispipo/web-ui/issues"
   },
-  "homepage": "https://github.com/borispipo/chakra-ui#readme",
+  "homepage": "https://github.com/borispipo/web-ui#readme",
   "dependencies": {
     "@babel/plugin-proposal-export-namespace-from": "^7.18.9",
     "@babel/preset-react": "^7.18.6",
-    "@chakra-ui/react": "^2.4.1",
+    "@web-ui/react": "^2.4.1",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@fto-consult/common": "^1.13.0",
